@@ -68,7 +68,7 @@ function tgle(){
 }
 
 function myintro(){
-      const int='<p class="mytxt"><br>The Bridge Club was founded on 2nd April 1992 as the Llandow Bridge Club. The club relocated to Penllyn village hall in 1995, becoming the Penllyn Club in 1996. The first Director was Robert Brown and the cup bearing his name is keenly contested each year by all members. The aim of the club is to provide a regular facility for Duplicate Contract Bridge in a welcoming and friendly environment for players of all standards.</p>';
+      const int='<p class="mytxt"><br>The Bridge Club was founded on 2nd April 1992 as the Llandow Bridge Club. The club relocated to Penllyn village hall in 1995, becoming the Penllyn Club in 1996.<br> The first Director was Robert Brown and the cup bearing his name is keenly contested each year by all members. <br>The aim of the club is to provide a regular facility for Duplicate Contract Bridge in a welcoming and friendly environment for players of all standards.  <br>Scoring at club nights has been enhanced with the introduction of a digital system. This uses easy to read digital touch screens enabling straightforward input of results for games played. After completion of each round the screen informs  players of the movement for the next round. Final results are available on screen at the end of the whole session.</p>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
