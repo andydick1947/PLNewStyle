@@ -12,10 +12,10 @@
 
   <br><br><br>
   <div class="my-grid">
-  <button type="button" id="butn1" class="butn">3 APR 25</button>
-  <button type="button" id="butn2" class="butn">10 APR 25</button>
-  <button type="button" id="butn3" class="butn">17 APR 25</button>
-  <button type="button" id="butn4" class="butn">24 APR 25</button>
+  <button type="button" id="butn1" class="btn">3 APR 25</button>
+  <button type="button" id="butn2" class="btn">10 APR 25</button>
+  <button type="button" id="butn3" class="btn">17 APR 25</button>
+  <button type="button" id="butn4" class="btn">24 APR 25</button>
 
 
   </div>
@@ -29,10 +29,9 @@ for (let x=runtot[0]; x<=(runtot[1]-1); x++){
     ii=x-1;
 if (myResults[ii][2]=="1"){
 bt="butn".concat(x);
-document.getElementById(bt).style.backgroundColor="skyblue";
-document.getElementById(bt).style.borderColor="blue";
-document.getElementById(bt).style.color="black";
-document.getElementById(bt).style.fontSize="16px";
+document.getElementById(bt).style.backgroundColor="lightgray";
+
+document.getElementById(bt).style.color="darkgray";
 }
  let z="butn".concat(x);
  let y=document.getElementById(z);
